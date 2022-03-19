@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #e1eef7;
+}
+
+.mainCard{
+    background-color: white;
+    max-width: 20%;
+    margin: 6% 20% 10% 40%;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+img{
+    padding-top: 10px;
+    max-width: 95%;  
+    border-radius: 20px;
+}
+
+.attribution { 
+font-size: 11px; 
+text-align: center; 
+}
+.attribution a { 
+color: hsl(228, 45%, 44%); 
+}
