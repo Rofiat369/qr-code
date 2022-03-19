@@ -10,11 +10,15 @@ body{
 .mainCard{
     background-color: white;
     max-width: 20%;
-    margin: 6% 20% 10% 40%;
-    border: 2px solid white;
+    margin: 6% 20% 6% 40%;
     border-radius: 20px;
     text-align: center;
     padding: 5px;
+    box-shadow: 10px 5px 2px #e1eef7;
+}
+
+.info .header{
+    font-weight: bold;
 }
 
 img{
@@ -29,4 +33,20 @@ text-align: center;
 }
 .attribution a { 
 color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 600px) {
+   body  section.mainCard{
+        background-color: white;
+        max-width: 80%;
+        margin: 60px 20px;
+        border-radius: 20px;
+        text-align: center;
+        padding: 5px;
+        box-shadow: 10px 5px 2px #e1eef7;
+    }
+
+    .info .header{
+        font-weight: bold;
+    }
 }
