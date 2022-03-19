@@ -18,7 +18,7 @@ The challenge was to build out this QR code component and get it as close as pos
 
 ## Goal For building this challenge
 
-The ain is to get better at front-end design and techniques.
+The aim is to get better at front-end design and techniques.
 
 
 
